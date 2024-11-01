@@ -4,21 +4,4 @@ body{
     background-size: 100%;
 }
 
-header{
-    margin-top: -12px;
-    margin-left: -8px;
-    margin-right: -8px;
-    
-    h1{
-        color: purple;
-        font-size: 26px;
-        text-align: center;
-    }
 
-    a{
-        color: rgb(187, 66, 187);
-    }
-    a:hover{
-        color: rgb(254, 255, 167);
-    }
-}

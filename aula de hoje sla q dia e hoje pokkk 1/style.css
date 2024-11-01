@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    height: 10vw;
+    width: 100%;
+    background-color: rgb(255, 98, 229);
+}
+
+nav{
+    height: calc(100vw - 10vw);
+    width: 15vh;
+    background-color: rgb(104, 207, 255);
+    display: flex;
+}
+
+/* gambiarrra pra funcionar, não repetir futuramente :) */
+nav > div{
+    height: 1px;
+    width: 1px;
+    background-color: rgb(104, 207, 255);
+}
+
+nav > section{
+    height: 10%;
+    width: 60%;
+    background-color: rgb(255, 98, 229);
+    margin: 50% 20%;
+    border: 1px solid black;
+}
+
+
+.box{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    outline: 10px black;
+    display: flex;
+}
